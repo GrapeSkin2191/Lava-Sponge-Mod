@@ -2,9 +2,12 @@
 
 .gradle/
 build/
-publish/
 out/
 classes/
+
+# eclipse
+
+*.launch
 
 # idea
 
@@ -12,6 +15,18 @@ classes/
 *.iml
 *.ipr
 *.iws
+
+# vscode
+
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# macos
+
+*.DS_Store
 
 # fabric
 

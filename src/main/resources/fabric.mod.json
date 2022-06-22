@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "lavasponge",
+  "version": "${version}",
+
+  "name": "Lava Sponge",
+  "description": "Add lava sponge which absorbs lava to the game",
+  "authors": [
+    "SAZrX"
+  ],
+  "contact": {
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/lavasponge/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "grapeskin.lava_sponge.LavaSpongeMod"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
